@@ -1,24 +1,36 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* { margin: 0; padding: 0; border: 0; }
+
 .body{
+	font-family: "Helvetica, Arial", 'sans-serif' bold;
+	text-color: #000000;
 	background-color: #b3d6f0;
+	text-align: center;
 }
 
-.jumbotron {
-	align-content: center;
-	margin: 30px;
+.intro {
+	align-text: center;
+	margin: 200px, 50px, 50px, 50px;
 }
 
-.navbar {
-	max-height: 50px;
+.logoicon {
+  display: block;
+  margin-right: 50px;
 }
-
 .logo {
-	align-content: center;
+	margin-top:40px;
 }
-
-.container {
-	margin: 50px;
+.title {
+	border: #FFFFFF solid 5px;
+	border-radius: 15px;
+	margin: 30px;
+	
+}
+.context {
+	background-color:#ffffff;
+	margin: 20px;
 	border: #FFFFFF solid 10px;
+	border-radius: 15px;
 }

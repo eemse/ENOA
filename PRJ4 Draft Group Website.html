@@ -11,50 +11,67 @@
 <body class= "body">
 	<script src="js/jquery-3.6.0.slim.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
- 			<a class="navbar-brand" href="#">Navbar</a>
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
+		
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a href="#"> <img src="images/ENOALOGO.png" alt="ENOA logo" width="80" class= "img-fluid logoicon"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Brand
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+        <button type="button" class="btn btn-outline-light">Light</button>
+      </form>
+    </div>
   </div>
 </nav>
-		<div class="jumbotron">
- 		 <div class="col-sm-6 col-md-6 col-lg-3">
-				<img class="logo" src="images/ENOALOGO.png" alt="Enoa logo.">			
-			</div>
+	
+<header class="header">
+    <div class="container">
+		<div class="row">
+ 		<div class="col-sm-12 col-md-8 col-lg-8">
+			 <img src="images/ENOALOGO.png" alt="ENOA logo" width="500" class= "img-fluid logo">
+		</div>
+		<div class="col-sm-12 col-md-4 col-lg-4">
  		 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 		 <hr class="my-4">
  		 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
- 		 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+ 		 <button type="button" class="btn btn-outline-light">Learn more</button>
 		</div>
+		</div>	
+	</div>	
 	</header>
-		<div class="container">
-			<h1> title </h1>
-			<p> text</p>
+	<div class="title">
+		<h1> Lorum Ipsum </h1>
+		<div class="context">
+			<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
 		</div>
+	</div>	
+	<script src="js/jquery-3.6.0.slim.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
