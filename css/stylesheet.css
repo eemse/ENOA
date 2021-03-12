@@ -14,7 +14,9 @@
 	align-text: center;
 	margin: 200px, 50px, 50px, 50px;
 }
-
+.introtext{
+	margin-top: 40px;
+}
 .logoicon {
   display: block;
   margin-right: 50px;
