@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.body{
+	background-color: #b3d6f0;
+}
+
+.jumbotron {
+	align-content: center;
+	margin: 30px;
+}
+
+.navbar {
+	max-height: 50px;
+}
+
+.logo {
+	align-content: center;
+}
+
+.container {
+	margin: 50px;
+	border: #FFFFFF solid 10px;
+}
