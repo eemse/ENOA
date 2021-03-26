@@ -19,38 +19,72 @@
 <body class= "col-sm-12 col-md-12 col-lg-12 body">
 	<script src="js/jquery-3.6.0.slim.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
-		
 <!-- Navbar-->
-
-	
 <header class="header">
-		<nav class=" navbar navbar-expand-lg navlight">
+		<nav class=" navbar navbar-expand-lg navdark">
   			<div class=" container-fluid">
-    			<a href="PRJ4 Draft Group Website.html"> <img src="images/ENOALOGO.png" alt="ENOA logo" width="90" class= "img-fluid logoicon"></a>
+    			<a href="index.html"> <img src="images/ENOALOGO2.png" alt="ENOA logo" width="90" class= "img-fluid logoicon"></a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       				<span class="navbar-toggler-icon"></span>
    			  </button>
     			<div class="collapse navbar-collapse" id="navbarScroll">
       				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         			<li class="nav-item">
-          				<a class="nav-link" href="#">About</a>
+          				<a class="nav-link navknop" href="about.html">About</a>
         			</li>
-        			<li class="nav-item">
-          				<a class="nav-link" href="#">Workshops</a>
+        			<li class="nav-item navknop">
+          				<a class="nav-link" href="workshops.html">Workshops</a>
         			</li>
-					<li class="nav-item">
-          				<a class="nav-link" href="#">Media</a>
+					<li class="nav-item navknop">
+          				<a class="nav-link" href="media.html">Media</a>
         			</li>
-					<li class="nav-item">
-          				<a class="nav-link" href="#">Contact</a>
+					<li class="nav-item navknop">
+          				<a class="nav-link" href="contact.html">Contact</a>
         			</li>
       				</ul>
     			</div>
 		  </div>
 		</nav>
 	</header>
-	
+	<div class="border">
+	<form class="row g-12 contactform">
+		<h1 class="titlef">Your questions and comments</h1>
+		<p class="textf">ENOA wants to try to help everyone as much as possible.
+		<br>Do you have any questions and comments about what we do/ or offer? 
+		<br>Please contact us via the contact form below or via:</p>
+		<p class="adress">ENOA
+		<br>editorial office ENOA
+		<br>Monseigneur Hopmansstraat 2
+		<br>4817JS Breda
+		<br>tel: 0600-12345678
+		</p>
+  		<div class="col-md-12 formlabel">
+    		<label for="Name" class="form-label">Name:</label>
+    		<input type="text" class="form-control" id="inputname">
+ 		</div>
+ 		<div class="col-md-6 formlabel">
+    		<label for="inputEmail4" class="form-label">Email:</label>
+    		<input type="email" class="form-control" id="inputEmail4">
+  		</div>
+  		<div class="col-6 formlabel">
+    		<label for="inputsubject" class="form-label">Subject:</label>
+    		<input type="text" class="form-control" id="inputsubject">
+  		</div>
+		<div class="col-12 form-group formlabel">
+    		<label for="message">Message:</label>
+    		<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  		</div>
+		<br>
+  		<div class="col-12 formlabel">
+    		<button type="send" class="btn btn-outline-dark">Send</button>
+  		</div>
+	</form>
+	</div>
 	<footer class="footer">
+		<div class="social-nav">
+			<a class="col-auto insta" href="https://www.instagram.com/enoa_official/?hl=nl"> <img src="images/instagramw.png" alt="ENOA logo" width="30" class= "socials"></a>
+			<a class="col-auto tiktok" href="https://vm.tiktok.com/ZMeUjCqt2/"> <img src="images/tik-tokw.png" alt="ENOA logo" width="30" class= "socials"></a>
+		</div>
 		<br>
 		<p>© 2021 Creative Business students Breda University of Applied Science.</p>
 		<br>
