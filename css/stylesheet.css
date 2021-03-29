@@ -51,6 +51,12 @@
 	background-size: cover;
 	height: 100%;
 }
+.jumbomedia{
+	color: #FFFFFF;
+	background: url("../images/Yoga.jpg") no-repeat center center;
+	background-size: cover;
+	height: 100%;	
+}
 
 .jumbo{
 	margin-top: 100px;
