@@ -74,6 +74,16 @@
 .jvideo{
 	background: #ffffff;
 }
+
+.jworkshop{
+	color: #000000;
+	font-family: Helvetica, sans-serif !important;
+	font-style: bold!important;
+	background: url("../images/workscolor.jpg") no-repeat center center;
+	background-size: cover;
+	height: 400px;
+}
+
 .contactheader{
 	margin: 50px;
 }
@@ -175,10 +185,21 @@
     align-items: center;
 }
 
-.videos{
+.videos {
 	border: #ffffff solid 5px;	
 	margin: 50px;
 	border-radius: 15px;
+}
+
+.workshop {
+	border: #ffffff solid 5px;	
+	margin: 50px;
+	border-radius: 15px;
+}
+
+.workshopcontent {
+	text-align: left;
+	margin: 60px;
 }
 
 .video-responsive{
@@ -210,10 +231,26 @@
 .videoc{
 	text-align:left;
 	font-style: oblique;
-	font-size: 28px;
+	font-size: 32px;
 	margin: 40px 10px 30px 60px;
 }
 
 .card{
 	margin: 10px auto;
+}
+
+.worksintro{
+	background-color: #ffffff;
+}
+
+.wtitle{
+	font-family: Helvetica, sans-serif !important;
+	text-align:left;
+	margin: 120px 20px 20px 70px;
+}
+.wintrot{
+	font-family: Helvetica, sans-serif !important;
+	text-align:left;
+	font-style: oblique;
+	margin: 0px 50px 0px 70px ;
 }
