@@ -198,7 +198,7 @@
 }
 
 .workshopcontent {
-	text-align: left;
+	text-align: center;
 	margin: 60px;
 }
 
@@ -245,12 +245,12 @@
 
 .wtitle{
 	font-family: Helvetica, sans-serif !important;
-	text-align:left;
+	text-align:center;
 	margin: 120px 20px 20px 70px;
 }
 .wintrot{
 	font-family: Helvetica, sans-serif !important;
-	text-align:left;
+	text-align:center;
 	font-style: oblique;
 	margin: 0px 50px 0px 70px ;
 }
