@@ -52,9 +52,7 @@
 	background-size: cover;
 	height: 100%;
 }
-.jumbotext{
-	font-size:23px;
-}
+
 .jumbomedia{
 	color: #000000;
 	font-family: Helvetica, sans-serif !important;
@@ -81,7 +79,7 @@
 	font-style: bold!important;
 	background: url("../images/workscolor.jpg") no-repeat center center;
 	background-size: cover;
-	height: 400px;
+	height: 500px;
 }
 
 .contactheader{
@@ -99,6 +97,7 @@
 }
 
 .jumbo{
+	color:#000000;
 	margin-top: 100px;
 }
 
@@ -120,7 +119,13 @@
 	font-style:oblique;
 }
 
-.skin{
+.quote2{
+	margin-top: 35px;
+	font-size:35px ;
+	font-style:oblique;
+}
+
+.index{
 	margin: 20px;
 	border: #FFFFFF thick solid;
 	border-radius: 15px;
