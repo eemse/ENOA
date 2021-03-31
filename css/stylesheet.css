@@ -71,6 +71,12 @@
 	background-size: cover;
 	height: 400px;	
 }
+.jvideo{
+	background: #ffffff;
+}
+.contactheader{
+	margin: 50px;
+}
 .mediatitle{
 	font-size: 65px;
 	font-family: Helvetica, sans-serif;
@@ -206,4 +212,8 @@
 	font-style: oblique;
 	font-size: 28px;
 	margin: 40px 10px 30px 60px;
+}
+
+.card{
+	margin: 10px auto;
 }
