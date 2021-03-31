@@ -156,6 +156,19 @@
 	font-weight: bold;
 }
 
+.titlev{
+	margin-top:30px;
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+	font-style:normal;
+	font-weight: bold;
+}
+
+.teamtext{
+	margin: 30px;
+	font-style:oblique;
+}
+
 .textf{
 	font-family: Helvetica, sans-serif;
 	font-style:normal;
@@ -195,6 +208,20 @@
 	border: #ffffff solid 5px;	
 	margin: 50px;
 	border-radius: 15px;
+}
+
+.vision{
+	border: #ffffff solid 5px;	
+	margin: 50px;
+	border-radius: 15px;	
+}
+
+.visiont{
+	margin: 200px 0px 30px 0px;
+}
+
+.visionp{
+	margin: 50px 0px 50px 0px;
 }
 
 .workshopcontent {
