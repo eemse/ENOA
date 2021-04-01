@@ -81,6 +81,12 @@
 	background-size: cover;
 	height: 500px;
 }
+.indexwork{
+	color:#ffffff;
+	background: url("../images/sickb.jpg") no-repeat center center;
+	background-size: cover;
+	height: 600px;
+}
 
 .contactheader{
 	margin: 50px;
