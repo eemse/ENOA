@@ -10,6 +10,16 @@
 	max-height: 500px;
 }
 
+.thankyou{
+	margin: 50px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.thankyout{
+	margin-bottom: 100px;
+}
+
 .bodymedia{
 	font-family: Helvetica, sans-serif;
 	background-color: #c7dcbc;
