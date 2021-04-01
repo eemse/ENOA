@@ -56,7 +56,6 @@
 .jumbomedia{
 	color: #000000;
 	font-family: Helvetica, sans-serif !important;
-	font-style: bold!important;
 	background: url("../images/lgbtqf.jpg") no-repeat center center;
 	background-size: cover;
 	height: 400px;	
@@ -64,7 +63,6 @@
 .jumbomedia2{
 	color: #000000;
 	font-family: Helvetica, sans-serif !important;
-	font-style: bold!important;
 	background: url("../images/menrow2.jpg") no-repeat center center;
 	background-size: cover;
 	height: 400px;	
@@ -76,7 +74,6 @@
 .jworkshop{
 	color: #000000;
 	font-family: Helvetica, sans-serif !important;
-	font-style: bold!important;
 	background: url("../images/workscolor.jpg") no-repeat center center;
 	background-size: cover;
 	height: 500px;
@@ -94,7 +91,6 @@
 .mediatitle{
 	font-size: 65px;
 	font-family: Helvetica, sans-serif;
-	font-style: bold;
 }
 .medialine{
 		font-size: 20px;
@@ -201,11 +197,8 @@
 	margin: 5px 0px 10px 0px;
 }
 .social-nav {
-    display: -webkit-box;
     display: flex;
-    box-pack: center;
     justify-content: center;
-    box-align: center;
     align-items: center;
 }
 
